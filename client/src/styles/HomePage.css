@@ -1,0 +1,47 @@
+HomePage.css:
+.hero-image-container {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 3em;
+}
+
+.overlay p {
+  font-size: 1.2em;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.parking-status {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
